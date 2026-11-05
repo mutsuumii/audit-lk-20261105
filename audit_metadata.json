@@ -1,0 +1,197 @@
+{
+  "source_repo": "NatLabRockies/lk",
+  "source_url": "https://github.com/NatLabRockies/lk",
+  "audit_date": "2026-11-05T08:20:48.915194",
+  "findings_count": 23,
+  "severity_breakdown": {
+    "HIGH": 6,
+    "CRITICAL": 10,
+    "MEDIUM": 7
+  },
+  "findings": [
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM-based XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "doc/html/search/search.js",
+      "line": 266
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM-based XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "doc/html/search/search.js",
+      "line": 270
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM-based XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "doc/html/search/search.js",
+      "line": 760
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM-based XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "doc/html/search/search.js",
+      "line": 771
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM-based XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "doc/html/search/search.js",
+      "line": 790
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM-based XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "doc/html/search/search.js",
+      "line": 809
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string functions",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "src/lex.cpp",
+      "line": 52
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string functions",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "src/lex.cpp",
+      "line": 548
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string functions",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "src/parse.cpp",
+      "line": 137
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string functions",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "src/parse.cpp",
+      "line": 139
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "src/parse.cpp",
+      "line": 122
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "src/parse.cpp",
+      "line": 124
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "src/parse.cpp",
+      "line": 137
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string functions",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "src/vm.cpp",
+      "line": 783
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "src/vm.cpp",
+      "line": 783
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "src/vm.cpp",
+      "line": 788
+    },
+    {
+      "id": "C-RAND-001",
+      "name": "Insecure random number generation",
+      "severity": "MEDIUM",
+      "cwe": "CWE-338",
+      "file": "include/lk/mtrand.h",
+      "line": 105
+    },
+    {
+      "id": "C-RAND-001",
+      "name": "Insecure random number generation",
+      "severity": "MEDIUM",
+      "cwe": "CWE-338",
+      "file": "include/lk/mtrand.h",
+      "line": 111
+    },
+    {
+      "id": "C-RAND-001",
+      "name": "Insecure random number generation",
+      "severity": "MEDIUM",
+      "cwe": "CWE-338",
+      "file": "include/lk/mtrand.h",
+      "line": 312
+    },
+    {
+      "id": "C-RAND-001",
+      "name": "Insecure random number generation",
+      "severity": "MEDIUM",
+      "cwe": "CWE-338",
+      "file": "include/lk/mtrand.h",
+      "line": 314
+    },
+    {
+      "id": "C-RAND-001",
+      "name": "Insecure random number generation",
+      "severity": "MEDIUM",
+      "cwe": "CWE-338",
+      "file": "include/lk/mtrand.h",
+      "line": 334
+    },
+    {
+      "id": "C-RAND-001",
+      "name": "Insecure random number generation",
+      "severity": "MEDIUM",
+      "cwe": "CWE-338",
+      "file": "include/lk/mtrand.h",
+      "line": 335
+    },
+    {
+      "id": "C-RAND-001",
+      "name": "Insecure random number generation",
+      "severity": "MEDIUM",
+      "cwe": "CWE-338",
+      "file": "include/lk/mtrand.h",
+      "line": 343
+    }
+  ]
+}
